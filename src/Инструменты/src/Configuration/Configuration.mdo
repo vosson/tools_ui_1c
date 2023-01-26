@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ecdeb61a-5243-42a4-a160-d7ee52dabb34">
   <name>УниверсальныеИнструменты</name>
-  <synonym>
-    <key>ru</key>
-    <value>Универсальные инструменты</value>
-  </synonym>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <managedApplicationModule>Extended</managedApplicationModule>
-    <defaultLanguage>Checked</defaultLanguage>
+    <commandInterface>Extended</commandInterface>
+    <homePageWorkArea>Extended</homePageWorkArea>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="44154cfc-e04b-4c2e-94cc-83152eb460a6"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="2f9f9e83-25fb-4d7b-950d-22247dc67b19"/>
@@ -22,7 +19,6 @@
   <scriptVariant>Russian</scriptVariant>
   <vendor>ООО &quot;Центр прикладных разработок&quot;</vendor>
   <version>1.4.14</version>
-  <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
@@ -129,6 +125,7 @@
   <commonForms>CommonForm.УИ_НастройкиДинамическогоСписка</commonForms>
   <catalogs>Catalog.УИ_Алгоритмы</catalogs>
   <catalogs>Catalog.ДополнительныеОтчетыИОбработки</catalogs>
+  <catalogs>Catalog.УИ_Справочник</catalogs>
   <reports>Report.УИ_КонсольОтчетов</reports>
   <dataProcessors>DataProcessor.УИ_ГрупповаяОбработкаСправочниковИДокументов</dataProcessors>
   <dataProcessors>DataProcessor.УИ_РедакторКонстант</dataProcessors>
